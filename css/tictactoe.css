@@ -1,0 +1,69 @@
+body {
+    background-color: #efeded;
+    color: #2b5877;
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#ttt-section {
+    text-align: center;
+}
+
+#ttt-title {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+#ttt-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 350px;
+    margin: 2rem auto;
+}
+
+.tic-item {
+    border: 2px solid #bcbaba;
+    width: 85px;
+    height: 85px;
+    padding: 12px;
+    margin: 5px;
+    text-align: center;
+    color: #2b5877;
+    line-height: 100px;
+    font-size: 3.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px #65cf9a;
+    border-radius: 10px;
+}
+
+.tic-item:hover {
+    background-color: #2b5877;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.ttt-restart{
+    background-color: #fff;
+    justify-content: center;
+    display: inline-block;
+    padding: 0.5rem 1.2em;
+    border: 0.15rem solid #65cf9a;
+    margin: 0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 550;
+    color:#333;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.ttt-restart:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.ttt-status {
+    text-align: center;
+}
